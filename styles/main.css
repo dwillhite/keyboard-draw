@@ -1,3 +1,83 @@
 body {
-    background: #ccc;
+    background: #000;
+}
+#test {
+    stroke-dasharray: 600;
+    stroke-dashoffset: 600;
+    animation: draw 5s infinite;
+}
+#topRight {
+    stroke-dasharray: 800;
+    stroke-dashoffset: 800;
+    animation: draw 6s infinite;
+}
+#pathOne {
+    stroke-dasharray: 2790;
+    stroke-dashoffset: 2790;
+    animation: draw 10s infinite;
+}
+
+#spacebar {
+    stroke-dasharray: 600;
+    stroke-dashoffset: 600;
+    animation: draw 5s infinite;
+}
+
+#upDownArrow {
+    stroke-dasharray: 300;
+    stroke-dashoffset: 300;
+    animation: draw 5s infinite;
+}
+
+#tab {
+    stroke-dasharray: 300;
+    stroke-dashoffset: 300;
+    animation: draw 3s infinite;
+}
+
+#rightCommand {
+    stroke-dasharray: 300;
+    stroke-dashoffset: 300;
+    animation: draw 7s infinite;
+}
+
+#delete {
+    stroke-dasharray: 300;
+    stroke-dashoffset: 300;
+    animation: draw 9s infinite;
+}
+
+#leftShift {
+    stroke-dasharray: 420;
+    stroke-dashoffset: 420;
+    animation: draw 4s infinite;
+}
+
+#rightShift {
+    stroke-dasharray: 420;
+    stroke-dashoffset: 420;
+    animation: draw 6s infinite;
+}
+
+#j {
+    stroke-dasharray: 300;
+    stroke-dashoffset: 300;
+    animation: draw 9s infinite;
+}
+
+#seven {
+    stroke-dasharray: 300;
+    stroke-dashoffset: 300;
+    animation: draw 3s infinite;
+}
+
+#return {
+    stroke-dasharray: 400;
+    stroke-dashoffset: 400;
+    animation: draw 10s infinite;
+}
+@keyframes draw {
+    to {
+        stroke-dashoffset: 0;
+    }
 }
