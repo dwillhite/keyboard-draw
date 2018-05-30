@@ -39,8 +39,8 @@ body {
 }
 
 #delete {
-    stroke-dasharray: 300;
-    stroke-dashoffset: 300;
+    stroke-dasharray: 531;
+    stroke-dashoffset: 531;
     animation: draw 9s infinite;
 }
 
@@ -122,8 +122,8 @@ body {
 }
 
 #s {
-    stroke-dasharray: 200;
-    stroke-dashoffset: 200;
+    stroke-dasharray: 408;
+    stroke-dashoffset: 408;
     animation: draw 5s infinite;
 } 
 
@@ -146,14 +146,14 @@ body {
 }
 
 #tick {
-    stroke-dasharray: 200;
-    stroke-dashoffset: 200;
+    stroke-dasharray: 407;
+    stroke-dashoffset: 407;
     animation: draw 4s infinite;
 }
 
 #leftBracket {
-    stroke-dasharray: 200;
-    stroke-dashoffset: 200;
+    stroke-dasharray: 340;
+    stroke-dashoffset: 340;
     animation: draw 4s infinite;
 }
 
@@ -213,10 +213,118 @@ body {
 
 #innerEject {
     stroke-dasharray: 300;
-    stroke-dashoffset: 0;
+    stroke-dashoffset: 300;
     animation: draw 4s infinite; 
     /* animation-direction: alternate-reverse; */
     /* animation-iteration-count: 1; */
+}
+
+#six {
+    stroke-dasharray: 407;
+    stroke-dashoffset: 407;
+    animation: draw 3s infinite; 
+}
+
+#five {
+    stroke-dasharray: 407;
+    stroke-dashoffset: 407;
+    animation: draw 9s infinite; 
+}
+
+#pipe {
+    stroke-dasharray: 407;
+    stroke-dashoffset: 407;
+    animation: draw 8s infinite; 
+}
+
+#u {
+    stroke-dasharray: 407;
+    stroke-dashoffset: 407;
+    animation: draw 8s infinite; 
+}
+
+#p{
+    stroke-dasharray: 407;
+    stroke-dashoffset: 407;
+    animation: draw 4s infinite; 
+}
+
+#f1{
+    stroke-dasharray: 342;
+    stroke-dashoffset: 342;
+    animation: draw 5s infinite; 
+}
+
+#f7{
+    stroke-dasharray: 341;
+    stroke-dashoffset: 341;
+    animation: draw 7s infinite; 
+}
+
+#esc{
+    stroke-dasharray: 341;
+    stroke-dashoffset: 341;
+    animation: draw 4s infinite; 
+}
+
+#f6{
+    stroke-dasharray: 341;
+    stroke-dashoffset: 341;
+    animation: draw 3s infinite; 
+}
+
+#four{
+    stroke-dasharray: 407;
+    stroke-dashoffset: 407;
+    animation: draw 11s infinite; 
+}
+
+#m{
+    stroke-dasharray: 407;
+    stroke-dashoffset: 407;
+    animation: draw 4s infinite;
+}
+
+#d{
+    stroke-dasharray: 407;
+    stroke-dashoffset: 407;
+    animation: draw 9s infinite;
+}
+
+#n{
+    stroke-dasharray: 407;
+    stroke-dashoffset: 407;
+    animation: draw 9s infinite;
+}
+
+#a{
+    stroke-dasharray: 407;
+    stroke-dashoffset: 407;
+    animation: draw 11s infinite;
+}
+
+#b{
+    stroke-dasharray: 407;
+    stroke-dashoffset: 407;
+    animation: draw 11s infinite;
+}
+
+#f{
+    stroke-dasharray: 407;
+    stroke-dashoffset: 407;
+    animation: draw 7s infinite;
+}
+
+#question {
+    stroke-dasharray: 407;
+    stroke-dashoffset: 407;
+    animation: draw 7s infinite;
+}
+
+#greaterThan {
+    stroke-dasharray: 407;
+    stroke-dashoffset: 407;
+    animation: draw 5s infinite;
 }
 @keyframes draw {
     to {
